@@ -5,9 +5,16 @@ Here is the [offical doc](https://flutter.dev/docs/development/add-to-app).
 ## Adding a Flutter screen to an iOS app
 After reading, sort out the four points (I used [Option A](https://flutter.dev/docs/development/add-to-app/debugging))
 1. create a flutter module
-2. add module to Podfile
-3. add some code to initial flutter engine
-4. add a test page to launch FlutterViewController
+```
+flutter create --template module my_flutter
+```
+3. add module to Podfile
+4. add some code to initial flutter engine
+5. add a test page to launch FlutterViewController
+
+## Development (important)
+
+There is a hidden ios folder which contains xcode worksapce in my_flutter project, so you can run it by xcode for development.
 
 ## How to commuicate between Dart and Swift
 有兩種方法可提提供了雙向溝通, 一個是從flutter主動呼叫某個method, 另一個是從native傳event回去
