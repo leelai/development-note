@@ -65,6 +65,7 @@ eventSink(FlutterError(xxxxx))
 - https://flutter.dev/docs/development/add-to-app/debugging
 - ios目前測試無法flutter attach
 - android還沒測試
+- [flutter attach要先啟用network permission](https://flutter.dev/docs/development/add-to-app/ios/project-setup#local-network-privacy-permissions)
 
 ## Refference
 - https://flutter.dev/docs/development/add-to-app/ios/project-setup
