@@ -67,6 +67,9 @@ eventSink(FlutterError(xxxxx))
 - android還沒測試
 - [flutter attach要先啟用network permission](https://flutter.dev/docs/development/add-to-app/ios/project-setup#local-network-privacy-permissions)
 
+## Troubleshooting
+- [kernel binary format problem](https://stackoverflow.com/questions/56051502/cant-load-kernel-binary-invalid-kernel-binary-format-version-no-active-packag)
+
 ## Refference
 - https://flutter.dev/docs/development/add-to-app/ios/project-setup
 - https://medium.com/flutter-community/add-flutter-to-existing-android-ios-app-ae8c4fb1582e
