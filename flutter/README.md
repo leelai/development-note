@@ -65,12 +65,10 @@ eventSink(FlutterError(xxxxx))
 - https://flutter.dev/docs/development/platform-integration/platform-channels#codec
 - 目前專案需求要從flutter把ByteData 轉成 Uint8List 往native送, 所以在kotlin會收到 ByteArray, swift收到FlutterStandardTypedData(bytes: Data)
 
-## Debugging
+## Debugging(目前還沒測試過)
 - https://flutter.dev/docs/development/add-to-app/debugging
-- ios目前測試無法flutter attach
-- android還沒測試
 - [flutter attach要先啟用network permission](https://flutter.dev/docs/development/add-to-app/ios/project-setup#local-network-privacy-permissions)
-
+- [vs-code debug設定](https://flutter.dev/docs/development/add-to-app/debugging#vs-code)
 ## Troubleshooting
 - [kernel binary format problem](https://stackoverflow.com/questions/56051502/cant-load-kernel-binary-invalid-kernel-binary-format-version-no-active-packag)
 
