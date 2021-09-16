@@ -64,6 +64,7 @@ eventSink(FlutterError(xxxxx))
 ## [Platform channel data types](https://flutter.dev/docs/development/platform-integration/platform-channels#codec)
 - https://flutter.dev/docs/development/platform-integration/platform-channels#codec
 - 目前專案需求要從flutter把ByteData 轉成 Uint8List 往native送, 所以在kotlin會收到 ByteArray, swift收到FlutterStandardTypedData(bytes: Data)
+- 可考慮base64, native <--> flutter都用string傳送; 轉base64後資料會增加,但目前應用不會透過網路傳輸,而且目前專案資料量不大.
 
 ## Debugging(目前還沒測試過)
 - https://flutter.dev/docs/development/add-to-app/debugging
