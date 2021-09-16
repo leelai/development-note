@@ -1,7 +1,7 @@
 # Embedded Flutter page in native code
 
 Here is the [offical doc](https://flutter.dev/docs/development/add-to-app).
-
+這邊我只focus在ios/flutter, android尚未研究(因為是google的應該沒啥問題😆）
 ## Adding a Flutter screen to an iOS app
 After reading, sort out the four points (I used [Option A](https://flutter.dev/docs/development/add-to-app/debugging))
 1. create a flutter module
@@ -22,7 +22,7 @@ There is a hidden ios folder which contains xcode worksapce in my_flutter projec
 
 - 從flutter主動傳訊息給native, native再回傳資料回去flutter
 - https://flutter.dev/docs/development/platform-integration/platform-channels
-- https://github.com/flutter/flutter/blob/master/examples/platform_channel_swift/lib/main.dart
+- [sample code](https://github.com/flutter/flutter/tree/master/examples/platform_channel_swift)
 
 1. 在flutter這邊定義methodchannel
 ```
