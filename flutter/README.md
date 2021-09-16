@@ -61,6 +61,10 @@ eventSink(xxxxxxxx)
 eventSink(FlutterError(xxxxx))
 ```
 
+## [Platform channel data types](https://flutter.dev/docs/development/platform-integration/platform-channels#codec)
+- https://flutter.dev/docs/development/platform-integration/platform-channels#codec
+- 目前專案需求要從flutter把ByteData 轉成 Uint8List 往native送, 所以在kotlin會收到 ByteArray, swift收到FlutterStandardTypedData(bytes: Data)
+
 ## Debugging
 - https://flutter.dev/docs/development/add-to-app/debugging
 - ios目前測試無法flutter attach
