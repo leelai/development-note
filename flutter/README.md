@@ -18,11 +18,12 @@ There is a hidden ios folder which contains xcode worksapce in my_flutter projec
 
 ## How to commuicate between Dart and Swift
 有兩種方法可提提供了雙向溝通, 一個是從flutter主動呼叫某個method, 另一個是從native傳event回去
+- [offical doc](https://flutter.dev/docs/development/platform-integration/platform-channels)
+- [sample code](https://github.com/flutter/flutter/tree/master/examples/platform_channel_swift)
+
 ### Method Channel (dart -> swift/objc)
 
-- 從flutter主動傳訊息給native, native再回傳資料回去flutter
-- https://flutter.dev/docs/development/platform-integration/platform-channels
-- [sample code](https://github.com/flutter/flutter/tree/master/examples/platform_channel_swift)
+從flutter主動傳訊息給native, native再回傳資料回去flutter
 
 1. 在flutter這邊定義methodchannel
 ```
