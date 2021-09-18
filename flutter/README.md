@@ -14,7 +14,8 @@ flutter create --template module my_flutter
 
 ## Development (important)
 
-There is a hidden ios folder which contains xcode worksapce in my_flutter project, so you can run it by xcode for development.
+- There is a hidden ios folder which contains xcode worksapce in my_flutter project, so you can run it by xcode for development.
+- any changed in my_flutter project, need to launch "pod install", and then run xcode debug.
 
 ## How to commuicate between Dart and Swift
 有兩種方法可提提供了雙向溝通, 一個是從flutter主動呼叫某個method, 另一個是從native傳event回去
