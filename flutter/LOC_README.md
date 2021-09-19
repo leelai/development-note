@@ -3,6 +3,7 @@
 - [Offical doc](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
 - [Offical example](https://github.com/flutter/website/tree/main/examples/internationalization)
 - [路人甲心得](https://www.ernestchiang.com/zh/posts/2020/2020-04-30-flutter-localization/)
+- [intl by dart team](https://github.com/dart-lang/intl)
 
 ### Other plugins
 - [flutter_translate](https://github.com/bratan/flutter_translate)
