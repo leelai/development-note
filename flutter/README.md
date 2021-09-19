@@ -63,6 +63,10 @@ eventSink(xxxxxxxx)
 eventSink(FlutterError(xxxxx))
 ```
 
+## Navigate views between native and flutter
+
+- https://stackoverflow.com/a/62016151/3728335
+
 ## [Platform channel data types](https://flutter.dev/docs/development/platform-integration/platform-channels#codec)
 - https://flutter.dev/docs/development/platform-integration/platform-channels#codec
 - 目前專案需求要從flutter把ByteData 轉成 Uint8List 往native送, 所以在kotlin會收到 ByteArray, swift收到FlutterStandardTypedData(bytes: Data)
@@ -78,3 +82,4 @@ eventSink(FlutterError(xxxxx))
 ## Refference
 - https://flutter.dev/docs/development/add-to-app/ios/project-setup
 - https://medium.com/flutter-community/add-flutter-to-existing-android-ios-app-ae8c4fb1582e
+- https://github.com/duytq94/demo-integrate-flutter
