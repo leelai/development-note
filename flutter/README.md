@@ -82,3 +82,4 @@ eventSink(FlutterError(xxxxx))
 ## Refference
 - https://flutter.dev/docs/development/add-to-app/ios/project-setup
 - https://medium.com/flutter-community/add-flutter-to-existing-android-ios-app-ae8c4fb1582e
+- https://github.com/duytq94/demo-integrate-flutter
