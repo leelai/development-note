@@ -1,7 +1,7 @@
 # Localize flutter app
 
 大概花了一天, 測試了幾個非官方的套件後, 繞了一圈還是用dart team開發的intl. 雖然官方文件有點亂, 照著做還是可以搞出來.
-除了有些class在vs code無法解析, 在ide上會顯示紅字有點礙眼, 但是build得過, 之後再來看看哪邊出問題.
+遇到auto gen的class在vscode無法解析, 從新開啟vscode可以解掉.
 
 - [Offical doc](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
 - [simple example](https://github.com/flutter/website/tree/main/examples/internationalization)
