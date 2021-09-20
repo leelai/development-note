@@ -1,4 +1,4 @@
-# Embedded Flutter page in native code
+# Hybrid App (Embedded Flutter page in native code)
 
 Here is the [offical doc](https://flutter.dev/docs/development/add-to-app).
 這邊我只focus在ios/flutter, android尚未研究(因為是google的應該沒啥問題😆）
