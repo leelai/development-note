@@ -5,4 +5,6 @@
 
 - [☕️ Testing](https://github.com/leelai/development-note/blob/main/flutter/testing.md)
 
+- State Managment
+
 - [Tips for the widgets](widgets/README.md)
