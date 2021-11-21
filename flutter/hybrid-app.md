@@ -79,6 +79,9 @@ eventSink(FlutterError(xxxxx))
 ## Troubleshooting
 - [kernel binary format problem](https://stackoverflow.com/questions/56051502/cant-load-kernel-binary-invalid-kernel-binary-format-version-no-active-packag)
 
+## Launch different page from native
+- [Demo Integrate Flutter](https://github.com/duytq94/demo-integrate-flutter)
+
 ## Refference
 - https://flutter.dev/docs/development/add-to-app/ios/project-setup
 - https://medium.com/flutter-community/add-flutter-to-existing-android-ios-app-ae8c4fb1582e
