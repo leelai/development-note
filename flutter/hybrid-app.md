@@ -64,7 +64,6 @@ eventSink(FlutterError(xxxxx))
 ```
 
 ## Navigate views between native and flutter
-
 - https://stackoverflow.com/a/62016151/3728335
 
 ## [Platform channel data types](https://flutter.dev/docs/development/platform-integration/platform-channels#codec)
@@ -80,6 +79,7 @@ eventSink(FlutterError(xxxxx))
 - [kernel binary format problem](https://stackoverflow.com/questions/56051502/cant-load-kernel-binary-invalid-kernel-binary-format-version-no-active-packag)
 
 ## Launch different page from native
+- 官方的example進入點只有一個畫面, 但有時候需要不同畫面.
 - [Demo Integrate Flutter](https://github.com/duytq94/demo-integrate-flutter)
 
 ## Refference
